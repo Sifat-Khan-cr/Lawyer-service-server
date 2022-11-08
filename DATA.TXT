@@ -1,0 +1,38 @@
+
+    {
+        name:"Tax Dispute",
+        info:"Tax Disputes means disputes between the taxpayer (or the person deducting the tax) and the tax administrator or his officer regarding tax calculation, payment or recovery, underpayment or overpayment of tax as well as regarding penalties for non-compliance with or violation of tax obligations.",
+        price:"550",
+        image:"https://ibb.co/7jpKV7X"
+
+    },
+    {
+        name:"Divorse",
+        info:"Taking the step to divorce in Bangladesh could affect both spouses when the right processes are not utilized. Because the procedure to dissolve the relationship is so exact with only three stages for completion, if any of these are not performed as specified, the husband and wife are not considered divorced. However, the wife is permitted a different process based on Muslim Family Law Ordinance established in 1961. This was created for dower monies afforded to the as yet unmarried wife and for maintenance of herself and any children that would be living with her. This is possible through a family court with a civil suit. The Section 7 part of this ordinance is what provides the divorce grounds.",
+        price:"450",
+        image:"https://ibb.co/HDsd6Cg"
+    },
+    {
+        name:"Real State",
+        info:"Real estate law, or property law, generally refers to the laws controlling the ownership or use of land in the United States. Real estate law is a branch of civil law that covers the right to possess, use, and enjoy land and the permanent man-made additions attached to it. Real estate law directly or indirectly impacts most of us on a daily basis, affecting homeowners, renters, landlords, home buyers, and home sellers.",
+        price:"780",
+        image:"https://ibb.co/25xF4jM"
+    },
+    {
+        name:"Auto Accident",
+        info:"We take tough cases other firms won’t. Alaska's Statute Of Limitations Gives You Two Years To File A Personal Injury Claim. Chat Support Available. Book A Free Consultation. 20 Years Of Experience.",
+        price:"1086",
+        image:"https://ibb.co/t4Rgxst"
+    },
+    {
+        name:"Aviation",
+        info:"Aviation law is the branch of international law that concerns flight, air travel, and associated legal and business concerns. Some of its area of concern overlaps that of admiralty law and in many cases, aviation law is considered a matter of international law due to the nature of air travel.",
+        price:"960",
+        image:"https://ibb.co/WDkqfPv"
+    },
+    {
+        name:"Health Care",
+        info:"The law became intimately involved in medical practice in the 20th century. Historically, legal medicine, or forensic medicine, was a field devoted exclusively to the uses of medicine in the courtroom, primarily in two settings: forensic pathology and forensic psychiatry. The pathologist has traditionally been asked to determine and testify to the cause of death in cases of suspected homicide and to aspects of various injuries involving crimes such as assault and rape. Medical testimony may also be required in civil cases involving, for example, occupational injury, negligent injury, automobile accidents, and paternity suits. Similarly, when a defendant pleads insanity as a defense, a psychiatrist is asked to examine the defendant and to testify as to his or her mental state at the time of the crime. The relevant question is usually whether the defendant’s criminal behaviour was the product of a mental illness or whether he or she was able to distinguish right from wrong. In civil cases, psychiatrists frequently appear as witnesses in cases of child custody and involuntary commitment for mental illness.",
+        price:"456",
+        image:"https://ibb.co/2PSbPsW"
+    }
