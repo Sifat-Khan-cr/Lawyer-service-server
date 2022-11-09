@@ -24,12 +24,6 @@ async function run() {
 
         const Service = client.db('lawyer').collection('services');
         const Review = client.db('lawyer').collection('reviews');
-        // Service.insertOne({
-        //     name: "Health Care",
-        //     info: "The law became intimately involved in medical practice in the 20th century. Historically, legal medicine, or forensic medicine, was a field devoted exclusively to the uses of medicine in the courtroom, primarily in two settings: forensic pathology and forensic psychiatry. The pathologist has traditionally been asked to determine and testify to the cause of death in cases of suspected homicide and to aspects of various injuries involving crimes such as assault and rape. Medical testimony may also be required in civil cases involving, for example, occupational injury, negligent injury, automobile accidents, and paternity suits. Similarly, when a defendant pleads insanity as a defense, a psychiatrist is asked to examine the defendant and to testify as to his or her mental state at the time of the crime. The relevant question is usually whether the defendant’s criminal behaviour was the product of a mental illness or whether he or she was able to distinguish right from wrong. In civil cases, psychiatrists frequently appear as witnesses in cases of child custody and involuntary commitment for mental illness.",
-        //     price: "456",
-        //     image: "https://i.ibb.co/zbFkb7Q/1240x550-gavel-stethoscope.jpg"
-        // })
 
 
         app.get('/services', async (req, res) => {
@@ -40,6 +34,14 @@ async function run() {
             const cursor = Service.find(query);
             const services = await cursor.limit(lim).toArray();
             res.send(services);
+        });
+        app.get('/reviews', async (req, res) => {
+
+            email = req.query.email;
+            const query = {}
+            const cursor = Review.find(query);
+            const reviews = await cursor.toArray();
+            res.send(reviews);
         });
 
         app.get('/services/:id', async (req, res) => {
