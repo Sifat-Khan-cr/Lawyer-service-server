@@ -50,6 +50,12 @@ async function run() {
             res.send(service);
         });
 
+        app.post('/review', async (req, res) => {
+            const review = req.body;
+            const result = await Review.insertOne(review);
+            res.send(result);
+        });
+
 
     } catch (error) {
         console.error(error.name, error.message);
