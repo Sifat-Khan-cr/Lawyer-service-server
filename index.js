@@ -31,7 +31,7 @@ async function run() {
             lim = parseInt(req.query.lim);
             // console.log(lim);
             const query = {}
-            const cursor = Service.find(query);
+            const cursor = Service.find(query).sort({ _id: -1 });
             const services = await cursor.limit(lim).toArray();
             res.send(services);
         });
